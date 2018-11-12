@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: gray;
+  font-family: 24px;
+}
+
+body {
+  background: white;
+  margin: 20px;
+  padding: 80px;
+  font-family: sans-serif;
+  font-size: 40px;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: min-content 1fr 1fr;
+}
+
+main > * {
+  margin-bottom: 10px;
+}
+
+main p {
+  padding-right: 20px;
+}
+
+#imc {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  text-align: center;
+}
+
+#classificacao {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  text-align: center;
+}
+
+main input {
+  background: #eef;
+  font-size: 24px;
+}
