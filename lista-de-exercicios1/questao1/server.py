@@ -37,6 +37,7 @@ def trata_request(request):
 
 def wait_request(tcp):
     con, client = tcp.accept()
+    print "Conectou-se:", client
     request = con.recv(1024)
 
     if request:

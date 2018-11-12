@@ -1,7 +1,7 @@
 # coding: utf-8
 import socket
 
-host = '192.168.25.39'
+host = '150.165.42.174'
 port = 5000
 
 con = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
